@@ -1,0 +1,15 @@
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\obj\Debug\ModeloNegocios.csproj.AssemblyReference.cache
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\obj\Debug\ModeloNegocios.csproj.CoreCompileInputs.cache
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\DataLayer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\DataLayer.pdb
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\DataLayer.dll.config
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\obj\Debug\ModeloNegocios.csproj.CopyComplete
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\EntityLayer\obj\Debug\EntityLayer.pdb

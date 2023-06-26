@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background-color: #06283d;
+}
+
+main .sectionEmpleados {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 80vw;
+  min-height: 70vh;
+  margin: auto;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+main .sectionEmpleados .actividadEmpleados-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+main
+  .sectionEmpleados
+  .actividadEmpleados-container
+  .listadoEmpleadosActivos-container {
+  border-radius: 10px;
+  border: 1px solid black;
+  min-height: 35vh;
+  width: 100%;
+  margin: 0 10px 10px 0;
+  background-color: #fff;
+  padding: 30px;
+}
+main .sectionEmpleados .actividadEmpleados-container .listadoEmpleadosActivos-container h2{
+  font-size: 18px;
+  border-bottom: 2px solid #3866f2;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+main .sectionEmpleados .actividadEmpleados-container .listadoEmpleadosInactivos-container h2{
+  font-size: 18px;
+  border-bottom: 2px solid #3866f2;
+  margin-bottom: 10px;
+  padding: 3px;
+  text-align: center;
+}
+
+main
+  .sectionEmpleados
+  .actividadEmpleados-container
+  .listadoEmpleadosInactivos-container {
+  border-radius: 10px;
+  border: 1px solid black;
+  min-height: 35vh;
+  width: 100%;
+  margin: 10px 10px 0 0;
+  background-color: #fff;
+  padding: 30px;
+}
+
+main .sectionEmpleados .listadoEmpleados-container {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 30px;
+  min-height: 70vh;
+  width: 70%;
+  background-color: #fff;
+  padding: 30px;
+}
+.empleados-container{
+  margin: 10px;
+}
+.empleados-container .empleados{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #5757577e;
+  padding: 10px;
+}
+.empleados.cabecera{
+  margin: 10px;
+  border-bottom: 2px solid #3866f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+main .sectionEmpleados .titulos-cajas{
+  text-align: center;
+}
+
+main form {
+  width: 70vw;
+  margin: auto;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgba(0 0 0 / 30%);
+  text-align: center;
+  max-width: 400px;
+}
+
+main form .form-container{
+  padding: 10px;
+  margin: 5px;
+  display: grid;
+  gap: 2.5em;
+}
+
+main form .form-container .formInput-container{
+  position: relative;
+}
+
+main form .form-container .formInput-container .formInput {
+  width: 100%;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+  border: none;
+  padding: .6em .3em;
+  border-bottom: 1px solid #5757577e;
+  font-family: 'Lato', sans-serif;
+  color: #706c6c;
+}
+main form .form-container .formInput-container .formInput:focus + .formLabel, main form .form-container .formInput-container .formInput:not(:placeholder-shown) + .formLabel{
+  transform: translateY(-12px) scale(.7);
+  transform-origin: left top;
+  color: #3866f2;
+}
+main form .form-container .formInput-container .formInput:focus{
+  color: #4d4646;
+}
+main form .form-container .formInput-container  .formLabel{
+  color: #5757577e;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform .5s, color .3s;
+}
+main form .btn-container{
+  text-align: center;
+}
+main form button {
+  padding: .8em 0;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: .5em;
+  border: none;
+  background-color: #3866f2;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  cursor: pointer;
+  transition: all .4s;
+}
+main form button:hover{
+  opacity: .9;
+}
+.formLine{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3866f2;
+  transform: scale(0);
+  transform: left bottom;
+  transition: transform .4s;
+}
+main form .form-container .formInput-container .formInput:focus ~ .formLine, .formInput:not(:placeholder-shown) ~ .formLine{
+  transform: scale(1);
+}
+
+select{
+  padding: 10px;
+  outline: none;
+  border: 1px solid #5757577e;
+}
+select:focus {
+ outline: none;
+}
+.estado{
+  min-width: 33%;
+}
+.activo{
+  color:green;
+}
+
+.inactivo{
+  color: red;
+}
+.nombreApellido-empleado{
+  max-width: 28%;
+  min-width: 28%;
+  font-size: 15px;
+}
+.fa.fa-exclamation-triangle{
+  color: red;
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  display: none;
+}
+.fa.fa-trash{
+  cursor: pointer;
+}
+.actividadEmpleados{
+  padding: 10px;
+  border-bottom: 1px solid #5757577e;
+}
+.userFetch-container{
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.userFetch-container p {
+  overflow-wrap: break-word;
+}
+.userFetch-container:hover{
+  opacity: .9;
+  cursor: pointer;
+}
+.section-fetch{
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.userFetch-container h3{
+  font-size: 18px;
+  margin: 5px;
+}
+.userFetch-container img{
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.tituloFetching{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+@media(max-width: 570px){
+  main .sectionEmpleados{
+    display: block;
+    max-width: 400px;
+    padding: 20px;
+  }
+  main .sectionEmpleados .listadoEmpleados-container{
+    width: 100%;
+    margin: 0;
+  }
+  main .sectionEmpleados .actividadEmpleados-container{
+    margin-bottom: 15vh;
+    width: 100%;
+
+  }
+  main .sectionEmpleados .listadoEmpleados-container .empleados.cabecera p {
+    font-size: 12px;
+  }
+  .section-fetch{
+    flex-direction: column;
+  }
+  .userFetch-container{
+    width: 100%;
+  }
+  p.estado{
+    font-size: 12px;
+  }
+  h3.nombreApellido-empleado{
+    font-size: 12px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebaTecnicaModelStoreContainer" CdmEntityContainer="PruebaTecnicaEntities">
+    <EntitySetMapping Name="ventas">
+      <EntityTypeMapping TypeName="PruebaTecnicaModel.ventas">
+        <MappingFragment StoreEntitySet="ventas">
+          <ScalarProperty Name="ID_VENTA" ColumnName="ID_VENTA" />
+          <ScalarProperty Name="Fecha_venta" ColumnName="Fecha_venta" />
+          <ScalarProperty Name="Dni_cliente" ColumnName="Dni_cliente" />
+          <ScalarProperty Name="Nombre_empleado" ColumnName="Nombre_empleado" />
+          <ScalarProperty Name="Nombre_cliente" ColumnName="Nombre_cliente" />
+          <ScalarProperty Name="Importe_total" ColumnName="Importe_total" />
+          <ScalarProperty Name="Direccion_envio_cliente" ColumnName="Direccion_envio_cliente" />
+          <ScalarProperty Name="Direccion_sucursal_venta" ColumnName="Direccion_sucursal_venta" />
+          <ScalarProperty Name="Nombre_sucursal_venta" ColumnName="Nombre_sucursal_venta" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="PruebaTecnicaModel.Store.getTopVentas" FunctionImportName="getTopVentas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PruebaTecnicaModel.getTopVentas_Result">
+          <ScalarProperty Name="Fecha_venta" ColumnName="Fecha_venta" />
+          <ScalarProperty Name="TotalVentas" ColumnName="TotalVentas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

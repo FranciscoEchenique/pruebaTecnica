@@ -1,0 +1,12 @@
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\echen\Desktop\EntrevistaTecnica\ProyectoASP\DataLayer\obj\Debug\DataLayer.pdb
